@@ -273,4 +273,85 @@ public class Useful {
 //        bar.setString("Done! :)");
 //    }
 
+
+    // ENUMs
+
+
+//    enum Planet{
+//        MERCURY(1),
+//        VENUS(2),
+//        EARTH(3),
+//        MARS(4),
+//        JUPITER(5),
+//        SATURN(6),
+//        URANUS(7),
+//        NEPTUNE(8),
+//        PLUTO(9);
+//
+//        final int number;
+//        Planet(int number){
+//            this.number = number;
+//        }
+//
+//    }
+//
+//
+//    public class Main {
+//        public static void main(String[] args) {
+//
+//            Planet myPlanet = Planet.MARS;
+//            canILiveHere(myPlanet);
+//        }
+//
+//        static void canILiveHere(Planet randomName){
+//            switch (randomName){
+//                case EARTH:
+//                    System.out.println("You can live here :)");
+//                    System.out.println("This is planet #"+randomName.number);
+//
+//                    break;
+//                default:
+//                    System.out.println("You can't live here... yet");
+//                    System.out.println("This is planet #"+randomName.number);
+//                    break;
+//            }
+//        }
+//
+//    }
+
+
+    // HASHMAPs
+
+//    import java.util.HashMap;
+//
+//    public class Main {
+//        public static void main(String[] args) {
+//
+//            HashMap<String, String> countries = new HashMap<String, String>();
+//
+//            //add a key and value
+//            countries.put("USA", "Washington DC");
+//            countries.put("India", "New Delhi");
+//            countries.put("Ukraine", "Kyiv");
+//            countries.put("China", "Beijing");
+//
+//            countries.remove("USA");
+//            System.out.println(countries.get("Ukraine"));
+//            countries.clear();
+//
+//            countries.replace("USA", "Detroit");
+//            System.out.println(countries.containsKey("England"));
+//            System.out.println(countries.containsValue("Beijing"));
+//
+//            for (String i : countries.keySet()){
+//                System.out.print(i + "\t = ");
+//                System.out.println(countries.get(i));
+//            }
+//
+//
+//
+//        }
+//
+//    }
+
 }
