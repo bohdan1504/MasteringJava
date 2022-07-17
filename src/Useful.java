@@ -354,4 +354,19 @@ public class Useful {
 //
 //    }
 
+    // ANONYMOUS OBJECTS
+//    JFrame frame = new JFrame("Anonymous");
+//    ArrayList<JLabel> deck = new ArrayList<JLabel>();
+//
+//        for (int i = 1; i <= 5; i++) {
+//        deck.add(new JLabel(new ImageIcon("src/dog-" + i + ".png")));
+//        frame.add(deck.get(i - 1));
+//    }
+//
+//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        frame.setSize(500, 500);
+//        frame.setLayout(new FlowLayout());
+//        frame.setLocationRelativeTo(null);
+//        frame.setVisible(true);
+
 }

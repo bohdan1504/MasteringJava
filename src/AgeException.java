@@ -3,6 +3,15 @@ public class AgeException extends Exception{
     AgeException(String message){
         super(message);
     }
+
+    static void checkAge(int age) throws AgeException{
+        if(age<18){
+            throw new AgeException("\nYou must be 18 or older to sign up!");
+        }
+        else{
+            System.out.println("You are now signed up!");
+        }
+    }
 }
 
 
