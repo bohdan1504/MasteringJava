@@ -369,4 +369,38 @@ public class Useful {
 //        frame.setLocationRelativeTo(null);
 //        frame.setVisible(true);
 
+    // LAMBDA EXPRESSION
+
+//
+//    JButton button1 = new JButton("Open new window");
+//    JButton button2 = new JButton("Close the frame");
+//
+//    JFrame frame = new MyFrame();
+//
+//        button1.setBounds(100,100,200,100);
+//        button1.addActionListener((e -> new MyFrame()));
+//
+//        button2.setBounds(100,200,200,100);
+//        button2.addActionListener( (e) -> frame.dispose() );
+//
+//        frame.add(button1);
+//        frame.add(button2);
+//
+//
+//    String name = "Bogdan";
+//    char symbol = '!';
+//
+//    MyInterface myInterface = (x, y) -> {
+//        System.out.println("hello world");
+//        System.out.println("It is a nice day " + x + y);
+//    };
+//
+//    MyInterface myInterface2 = (x, y) -> {
+//        System.out.println("Hello "+x+y);
+//    };
+//
+//        myInterface2.message(name, symbol);
+
+
+
 }
