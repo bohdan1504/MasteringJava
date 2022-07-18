@@ -416,4 +416,52 @@ public class Useful {
 //    }
 
 
+    // TIMER TASK
+
+//    import java.util.Calendar;
+//import java.util.Timer;
+//import java.util.TimerTask;
+//
+//    public class Main {
+//        public static void main(String[] args) {
+//
+//            Timer timer = new Timer();
+//
+//            TimerTask task = new TimerTask() {
+//                int counter = 10;
+//                @Override // anonymous object to override empty run method
+//                public void run() {
+//                    if(counter>0){
+//                        System.out.println(counter + " seconds");
+//                        counter--;}
+//                    else {
+//                        System.out.println("HAPPY NEW YEAR!");
+//                        timer.cancel();}
+//                }
+//            };
+//
+//            Calendar date = Calendar.getInstance();
+//            date.set(Calendar.YEAR, 2022);
+//            date.set(Calendar.MONTH, Calendar.DECEMBER);
+//            date.set(Calendar.DAY_OF_MONTH, 31);
+//            date.set(Calendar.HOUR_OF_DAY, 23);
+//            date.set(Calendar.MINUTE, 59);
+//            date.set(Calendar.SECOND, 50);
+//            date.set(Calendar.MILLISECOND, 0);
+//
+//
+//            timer.schedule(task, 3000); // start task after set interval
+//            timer.schedule(task, date.getTime()); // schedule a task for specific time
+//
+//            System.out.println(date.getTime()); // to get timer right now
+//
+//            timer.scheduleAtFixedRate(task, 0, 1000); // start timer now at fixed rate
+//            timer.scheduleAtFixedRate(task, date.getTime(), 1000); // start timer at fixed date
+//
+//
+//
+//        }
+//    }
+
+
 }
