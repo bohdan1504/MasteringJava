@@ -402,5 +402,18 @@ public class Useful {
 //        myInterface2.message(name, symbol);
 
 
+    // GENERICS
+
+//    public static <Thing> void displayList(Thing[] array){
+//        for (Thing i : array){
+//            System.out.print(i + " ");
+//        }
+//        System.out.println();
+//    }
+//
+//    public static <Thing> Thing getFirst(Thing[] array){
+//        return array[0];
+//    }
+
 
 }
