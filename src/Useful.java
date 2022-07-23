@@ -1,5 +1,10 @@
 public class Useful {
 
+    ///Library/Java/JavaVirtualMachines/jdk-18.0.1.1.jdk/Contents/Home
+
+
+
+
     // EXCEPTIONS
 //    Scanner scanner = new Scanner(System.in);
 //
